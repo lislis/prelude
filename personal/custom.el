@@ -5,7 +5,8 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("de30eaa469ef82373bb6f8f755c48df38c11bc461836cec9eb7c53b2007b8780" default))))
+    ("de30eaa469ef82373bb6f8f755c48df38c11bc461836cec9eb7c53b2007b8780" default)))
+ '(js-indent-level 2))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
