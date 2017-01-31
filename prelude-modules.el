@@ -38,3 +38,4 @@
 (require 'prelude-yaml)
 
 (require 'multiple-cursors)
+(require 'nyan-mode)
