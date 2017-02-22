@@ -39,3 +39,4 @@
 
 (require 'multiple-cursors)
 (require 'nyan-mode)
+(require 'lua-mode)
