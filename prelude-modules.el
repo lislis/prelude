@@ -29,7 +29,7 @@
 (require 'prelude-perl)
 (require 'prelude-python)
 (require 'prelude-ruby)
-;; (require 'prelude-scala)
+;;(require 'prelude-scala)
 (require 'prelude-scheme)
 (require 'prelude-shell)
 (require 'prelude-scss)
@@ -41,3 +41,4 @@
 (require 'nyan-mode)
 (require 'lua-mode)
 (require 'rust-mode)
+(require 'ensime)
