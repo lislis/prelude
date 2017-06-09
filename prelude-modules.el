@@ -42,3 +42,4 @@
 (require 'lua-mode)
 (require 'rust-mode)
 (require 'ensime)
+(require 'monokai-theme)
