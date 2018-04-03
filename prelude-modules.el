@@ -43,3 +43,4 @@
 (require 'rust-mode)
 (require 'ensime)
 (require 'monokai-theme)
+(require 'typescript-mode)
