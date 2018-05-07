@@ -44,3 +44,5 @@
 (require 'ensime)
 (require 'monokai-theme)
 (require 'typescript-mode)
+(require 'emmet-mode)
+(require 'toml-mode)
