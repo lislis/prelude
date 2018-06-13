@@ -46,3 +46,4 @@
 (require 'typescript-mode)
 (require 'emmet-mode)
 (require 'toml-mode)
+(require 'vue-mode)

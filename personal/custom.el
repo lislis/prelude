@@ -19,3 +19,6 @@
  ;; If there is more than one, they won't work right.
  )
 (load-theme 'monokai t)
+(set-face-attribute 'default t :font "Hack")
+(set-face-font 'menu "Hack")
+(set-frame-font "Hack" nil t)
