@@ -47,3 +47,6 @@
 (require 'emmet-mode)
 (require 'toml-mode)
 (require 'vue-mode)
+(require 'glsl-mode)
+
+;(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
