@@ -3,7 +3,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-
  '(company-quickhelp-color-background "#4F4F4F")
  '(company-quickhelp-color-foreground "#DCDCCC")
  '(compilation-message-face (quote default))
@@ -29,7 +28,7 @@
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(package-selected-packages
    (quote
-    (all-the-icons neotree js3-mode monokai-theme haskell-mode slim-mode vue-mode zop-to-char zenburn-theme yari yaml-mode which-key web-mode volatile-highlights undo-tree smex smartrep smartparens smart-mode-line scss-mode rainbow-mode rainbow-delimiters projectile operate-on-number move-text markdown-mode magit json-mode js2-mode inf-ruby imenu-anywhere ido-completing-read+ hl-todo haml-mode guru-mode grizzl god-mode glsl-mode gitignore-mode gitconfig-mode git-timemachine gist geiser flycheck flx-ido expand-region elisp-slime-nav editorconfig easy-kill discover-my-major diminish diff-hl crux company-anaconda cider browse-kill-ring beacon anzu ace-window)))
+    (all-the-icons neotree js3-mode monokai-theme haskell-mode slim-mode vue-moe zop-to-char zenburn-theme yari yaml-mode which-key web-mode volatile-highlights undo-tree smex smartrep smartparens smart-mode-line scss-mode rainbow-mode rainbow-delimiters projectile operate-on-number move-text markdown-mode magit json-mode js2-mode inf-ruby imenu-anywhere ido-completing-read+ hl-todo haml-mode guru-mode grizzl god-mode glsl-mode gitignore-mode gitconfig-mode git-timemachine gist geiser flycheck flx-ido expand-region elisp-slime-nav editorconfig easy-kill discover-my-major diminish diff-hl crux company-anaconda cider browse-kill-ring beacon anzu ace-window)))
  '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
@@ -62,7 +61,7 @@
  '(weechat-color-list
    (quote
     (unspecified "#272822" "#3C3D37" "#F70057" "#F92672" "#86C30D" "#A6E22E" "#BEB244" "#E6DB74" "#40CAE4" "#66D9EF" "#FB35EA" "#FD5FF0" "#74DBCD" "#A1EFE4" "#F8F8F2" "#F8F8F0"))))
->>>>>>> 9d6dd840e04130dc7b8d6224e8f7043d699d3af4
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
