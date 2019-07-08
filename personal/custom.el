@@ -3,13 +3,16 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-names-vector
+   ["#000000" "#8b0000" "#00ff00" "#ffa500" "#7b68ee" "#dc8cc3" "#93e0e3" "#dcdccc"])
  '(company-quickhelp-color-background "#4F4F4F")
  '(company-quickhelp-color-foreground "#DCDCCC")
  '(compilation-message-face (quote default))
- '(custom-enabled-themes (quote (cyberpunk)))
+ '(custom-enabled-themes (quote (weyland-yutani)))
  '(custom-safe-themes
    (quote
     ("3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "06c178b80bedb9d4b6109e3b3989745ba21f1231f8b58fa4137c447854a7b020" "bd7b7c5df1174796deefce5debc2d976b264585d51852c962362be83932873d9" "2ac87f254ec7643f5f5e05521b060fd799de14f289209153030e8baf44058a8e" "de30eaa469ef82373bb6f8f755c48df38c11bc461836cec9eb7c53b2007b8780" default)))
+ '(fci-rule-color "#383838")
  '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
  '(highlight-tail-colors
    (quote
@@ -28,7 +31,7 @@
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(package-selected-packages
    (quote
-    (all-the-icons neotree js3-mode monokai-theme haskell-mode slim-mode vue-mode zop-to-char zenburn-theme yari yaml-mode which-key web-mode volatile-highlights undo-tree smex smartrep smartparens smart-mode-line scss-mode rainbow-mode rainbow-delimiters projectile operate-on-number move-text markdown-mode magit json-mode js2-mode inf-ruby imenu-anywhere ido-completing-read+ hl-todo haml-mode guru-mode grizzl god-mode glsl-mode gitignore-mode gitconfig-mode git-timemachine gist geiser flycheck flx-ido expand-region elisp-slime-nav editorconfig easy-kill discover-my-major diminish diff-hl crux company-anaconda cider browse-kill-ring beacon anzu ace-window)))
+    (fennel-mode lua-mode php-mode sass-mode rust-mode feature-mode all-the-icons neotree js3-mode monokai-theme haskell-mode slim-mode vue-mode zop-to-char zenburn-theme yari yaml-mode which-key web-mode volatile-highlights undo-tree smex smartrep smartparens smart-mode-line scss-mode rainbow-mode rainbow-delimiters projectile operate-on-number move-text markdown-mode magit json-mode js2-mode inf-ruby imenu-anywhere ido-completing-read+ hl-todo haml-mode guru-mode grizzl god-mode glsl-mode gitignore-mode gitconfig-mode git-timemachine gist geiser flycheck flx-ido expand-region elisp-slime-nav editorconfig easy-kill discover-my-major diminish diff-hl crux company-anaconda cider browse-kill-ring beacon anzu ace-window)))
  '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
@@ -68,7 +71,7 @@
  ;; If there is more than one, they won't work right.
  )
 ;(load-theme 'monokai t)
-(set-face-attribute 'default t :font "Hack 14")
-(set-face-font 'menu "Hack 14")
-(set-frame-font "Hack 14" nil t)
+;;(set-face-attribute 'default t :font "Hack 14")
+;;(set-face-font 'menu "Hack 14")
+;;(set-frame-font "Hack 14" nil t)
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
